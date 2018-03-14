@@ -11,7 +11,7 @@ get '/square/:number' do
 end
 get '/say/:number/:phrase' do
   @number= params[:number]
-  binding.pry
+  #binding.pry
   i=0
   until i= @number
     "#{params[:phrase]}"
